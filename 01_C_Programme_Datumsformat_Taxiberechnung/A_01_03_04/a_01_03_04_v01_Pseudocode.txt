@@ -1,0 +1,21 @@
+programm a_01_03_04_v01
+
+    float grundgebuehr, preisProKilometer, preisZuBezahlen
+    int anzahlDerGefahrenenKilometer
+    
+    ausgabe("Geben Sie bitte Grundgebühr in Euro: ")
+    grundgebuehr = eingabe() 
+    
+    ausgabe("Geben Sie bitte Anzahl der gefahrenen Kilometer: ")
+    anzahlDerGefahrenenKilometer = eingabe() 
+    
+    ausgabe("Geben Sie bitte den Preis pro Kilometer in Euro: ")
+    preisProKilometer = eingabe() 
+
+    preisZuBezahlen = grundgebuehr + anzahlDerGefahrenenKilometer * preisProKilometer
+
+    ausgabe("Bei einer Grundgebühr von ", grundgebuehr, "Euro und einem Kilometerpreis 
+             von ", preisProKilometer, "Euro,\n kostet eine " anzahlDerGefahrenenKilometer, "km lange 
+             Taxifahrt insgesamt", preisZuBezahlen "Euro.")
+
+programm_ende
